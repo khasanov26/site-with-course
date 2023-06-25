@@ -1,0 +1,351 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+*,*:before,*:after{padding:0;margin:0;box-sizing:border-box}.slider{position:relative;width:100%;height:100%}.slider__container{position:relative;width:100%}.slider__item{position:relative;width:100%;display:none;font-size:120px;padding:70px 260px 295px 260px;z-index:10}.bg-image{position:absolute;width:100%;height:100%;top:0;right:0;-webkit-clip-path:polygon(73% 0, 100% 0, 100% 100%, 63% 100%);clip-path:polygon(73% 0, 100% 0, 100% 100%, 63% 100%);z-index:-1}.bg-image::after{content:"";background:url(assets/bg-image.svg);top:0;right:0;position:absolute;width:100%;height:100%;mix-blend-mode:multiply}.bg-green{background-color:#0d5e3c}.bg-blue{background-color:#173673}.bg-purple{background-color:#630773}.active{display:block}.dot__container{position:absolute;width:95px;height:25px;display:flex;align-items:center;justify-content:space-between;bottom:138px;left:260px;z-index:10}button{outline:none;cursor:pointer}.dot{height:15px;width:15px;border-radius:50%;border:1px solid #fff;display:flex;justify-content:center;align-items:center}.dot-green:hover{border:1px solid #0ed984}.dot-blue:hover{border:1px solid #3577f6}.dot-purple:hover{border:1px solid #d72df3}.dot-green:focus-within,.dot-blue:focus-within,.dot-purple:focus-within{border:none}.icon-world{opacity:0}.active-dot{width:25px;height:25px;opacity:1;border:none;pointer-events:none}#prev,#next{height:50px;width:50px;position:absolute;background-color:rgba(0,0,0,0);margin:auto;top:0;bottom:0;border:none;z-index:10}#prev{left:65px}#next{right:65px}.green,.blue,.purple{font-family:"Ubuntu",sans-serif}.green__logo,.blue__logo,.purple__logo{display:flex;align-items:center;justify-content:space-between;width:196px;height:30px;font-family:Ubuntu;font-weight:300;font-size:22px;line-height:120%;color:#fff}.green__logo svg,.blue__logo svg,.purple__logo svg{width:30px;height:30px}.green__logo span,.blue__logo span,.purple__logo span{font-weight:500;font-size:22px;line-height:120%;color:#0ed984}.green__new,.blue__new,.purple__new{margin-top:195px;font-weight:500;font-size:20px;line-height:120%;width:33px;color:#0ed984;position:relative}.green__new::after,.blue__new::after,.purple__new::after{content:"";position:absolute;bottom:-8px;left:0;width:85px;height:3px;background:#0ed984}.green__head,.blue__head,.purple__head{margin-top:33px;font-weight:500;font-size:96px;line-height:110%;color:#fff}.green__info,.blue__info,.purple__info{margin-top:40px;display:flex;justify-content:space-between;-webkit-column-gap:10px;column-gap:10px}.green__text,.blue__text,.purple__text{font-weight:300;font-size:20px;line-height:125%;color:#fff}.green__btn,.blue__btn,.purple__btn{padding:18px 50px;width:210px;height:60px;font-weight:500;font-size:20px;line-height:120%;border:2px dashed #fff;outline:none;background:rgba(0,0,0,0);color:#fff}.green__btn:hover,.blue__btn:hover,.purple__btn:hover{color:#0ed984;background:#fff}.blue__logo span{color:#3577f6}.blue__new{color:#3577f6}.blue__new::after{width:131px;background:#3577f6}.blue__btn:hover{color:#3577f6}.purple__logo span{color:#d72df3}.purple__new{color:#d72df3}.purple__new::after{width:140px;background:#d72df3}.purple__btn:hover{color:#d72df3}.green{background:#138f5b}.blue{background:#0d41a7}.purple{background:#9c10b4}.prev-icon{fill:#fff;opacity:.25;-webkit-filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))}.arrow-2{opacity:0;transition:all 1s ease}.prev-icon:hover{opacity:1}.prev-icon:hover .arrow-2{opacity:1}.prev-icon:hover .arrow-1{opacity:0;transition:all 1s ease}.next{-webkit-transform:rotate(-180deg);transform:rotate(-180deg)}.course{max-width:1600px;margin:0 auto;padding-top:120px;padding-bottom:130px;font-family:"Ubuntu",sans-serif}.course__list{width:100%;padding:70px 0 70px 0;display:flex;justify-content:space-between;-webkit-column-gap:50px;column-gap:50px}.course__item{min-width:500px;display:inline}.course__img{width:75px;height:75px}.course__head{margin-top:27px;font-family:"Ubuntu";font-weight:500;font-size:36px;line-height:115%}.course__head span{color:#0ed984}.course__desc{margin-top:20px;font-weight:300;font-size:20px;line-height:130%;color:#615d5d}.form{max-width:100%;background:#f3f3f3}.form__container{max-width:1600px;padding:150px 0 150px 0;margin:0 auto;font-family:"Ubuntu";font-style:normal}.form__box{display:flex;justify-content:space-between;-webkit-column-gap:10px;column-gap:10px;align-items:center}.form__head{font-weight:500;font-size:66px;line-height:110%;color:#1d1a1a}.form__desc{margin-top:30px;font-weight:300;font-size:20px;line-height:130%;color:#615d5d}.form__submit{display:flex;-webkit-column-gap:25px;column-gap:25px}.form__submit input{padding:20px 0 19px 20px;width:275px;height:65px;background:#fff;border:none;font-weight:400;font-size:20px;line-height:130%;font-style:normal;color:#1d1a1a;cursor:pointer}.form__submit input::-webkit-input-placeholder{color:#c5c5c5;font-weight:400;font-size:20px;line-height:130%}.form__submit input::placeholder{color:#c5c5c5;font-weight:400;font-size:20px;line-height:130%}.form__submit :hover::-webkit-input-placeholder{color:#999}.form__btn{width:220px;height:65px;background:#04643c;padding:20px 30px;font-weight:500;font-size:20px;line-height:120%;color:#fff;border:none;outline:none}.form__btn:hover{background:#138f5b}.form__state{margin-top:42px;font-weight:300;font-size:16px;line-height:130%;color:#a6a6a6}.form__state a{text-decoration-line:underline;cursor:pointer}.footer{background:#1d1a1a}.footer__content{display:flex;align-items:center;max-width:1600px;height:65px;margin:0 auto}@media (max-width: 1640px){.course__list{padding-right:15px;padding-left:17px}.course__item{min-width:400px}.form{padding-right:16px;padding-left:15px}.footer__content{padding-left:15px}}@media (max-width: 1439px){.slider__item{padding:35px 200px 105px 200px}.green__head,.blue__head,.purple__head{font-size:80px;line-height:110%}.green__text,.blue__text,.purple__text{font-size:22px;min-height:110px}.dot__container{left:200px;bottom:40px}.course__list{padding-top:0;padding-right:15px;padding-left:17px}.course__list{flex-wrap:wrap;justify-content:center;row-gap:60px}.course__item{min-width:400px;max-width:700px}}@media (max-width: 1200px){.slider__item{padding:35px 180px 105px 180px}.green__head,.blue__head,.purple__head{font-size:65px}.green__text,.blue__text,.purple__text{min-height:130px}.dot__container{left:180px}.form__container{padding:100px 0}.form__box{justify-content:center;-webkit-column-gap:50px;column-gap:50px}.form__head{font-size:44px}.form__submit{flex-direction:row;flex-wrap:wrap;justify-content:space-around;row-gap:30px;width:344px}.form__submit input{width:344px;height:65px}.form__submit button{width:344px;height:65px;padding:20px 92px 19px 92px}.form__state{max-width:344px;margin:0 auto;margin-top:25px;text-align:center}}@media (max-width: 992px){.slider__item{padding:35px 160px 105px 160px}.green__head,.blue__head,.purple__head{font-size:47px}.green__info,.blue__info,.purple__info{margin-top:20px;flex-direction:column}.dot__container{left:160px}}@media (max-width: 768px){.slider__item{padding:35px 150px 105px 150px}.dot__container{left:150px;bottom:55px}.bg-image{-webkit-clip-path:polygon(0 75%, 100% 63%, 100% 100%, 0 100%);clip-path:polygon(0 75%, 100% 63%, 100% 100%, 0 100%)}.green__head,.blue__head,.purple__head{font-size:60px}.green__text,.blue__text,.purple__text{font-size:22px;min-height:165px}.green__btn,.blue__btn,.purple__btn{margin-top:40px}.form__container{padding:75px 0 40px 0}.form__box{flex-direction:column}.form__head{font-size:35px;line-height:40px}.form__submit{margin-top:30px;row-gap:15px}.form__desc{margin-top:15px;font-size:20px;font-weight:300;line-height:125%}.form__desc br{display:none}.footer__content{padding-left:0;justify-content:center}}@media (max-width: 576px){.slider__item{padding:35px 16px 105px 16px}.dot__container{left:16px;bottom:40px}.green__logo,.blue__logo,.purple__logo{margin:0 auto}.green__new,.blue__new,.purple__new{margin-top:160px}.green__head,.blue__head,.purple__head{margin-top:28px;font-size:36px}.green__info,.blue__info,.purple__info{margin-top:15px}.green__text,.blue__text,.purple__text{min-height:100px;font-size:20px}.green__btn,.blue__btn,.purple__btn{margin-top:30px}#prev,#next{display:none}.course{padding-top:75px;padding-bottom:0}.course__list{padding-top:0;padding-right:15px;padding-left:17px}.course__list{flex-wrap:wrap;justify-content:center;row-gap:60px;padding-bottom:75px}.course__item{min-width:343px;max-width:none;max-width:initial}.course__img{width:50px;height:50px}.course__head{margin-top:15.5px;font-size:26px}.course__desc{margin-top:10px;font-size:18px}}@media (max-width: 370px){.green__head,.blue__head,.purple__head{font-size:30px}.green__text,.blue__text,.purple__text{min-height:125px}.course__item{min-width:280px}.form__container{padding:70px 0}.form__head{font-size:30px}.form__submit{max-width:280px}.form__submit input{max-width:280px}.form__submit button{max-width:280px;padding:10px 45px 10px 46px;font-size:17px}}
